@@ -20,7 +20,7 @@ Requirements:
 
 Before running:
     Get a free Census API key at: api.census.gov/data/key_signup.html
-    Paste it into CENSUS_API_KEY below.
+    Then export it:  export CENSUS_API_KEY=your_key_here
 
 Output (MODE = "all"):
     census_features.csv          — one row per tract per year
@@ -187,7 +187,7 @@ if not all_dfs:
     print("\nNo data was collected — all requests failed.")
     print("The 2024 ACS requires an API key. Sign up at:")
     print("  https://api.census.gov/data/key_signup.html")
-    print("Then paste your key into CENSUS_API_KEY at the top of this script.")
+    print("Then export it:  export CENSUS_API_KEY=your_key_here")
     exit()
 
 print("\nCombining all years...")

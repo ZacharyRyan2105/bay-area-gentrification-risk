@@ -11,7 +11,7 @@ Requirements:
     pip install requests geopandas pandas shapely
 
 Before running:
-    1. Set your API key below (YELP_API_KEY)
+    1. Export your API key:  export YELP_API_KEY=your_key_here
     2. Place the Bay Area TIGER census tract shapefile in the same folder
        as this script, or update SHAPEFILE_PATH to point to it.
        Download from: https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html

@@ -12,7 +12,7 @@ Requirements:
     pip install requests pandas geopandas
 
 Before running:
-    Paste your Walk Score API key into WALKSCORE_API_KEY below.
+    Export your Walk Score API key:  export WALKSCORE_API_KEY=your_key_here
     Sign up free at: https://www.walkscore.com/professional/api.php
 
 Output:
