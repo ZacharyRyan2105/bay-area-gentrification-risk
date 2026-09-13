@@ -1,0 +1,42 @@
+# ── Raw and intermediate data — never committed ────────────────────────────
+# Sources are public but carry redistribution terms (Zillow) or are
+# address-level (permits). See data/README.md for how to obtain each one.
+data/raw/
+data/interim/
+*.csv
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.parquet
+*.xlsx
+*.zip
+
+# Exception: small derived model outputs that are our own work
+!outputs/gentrification_risk_scores.csv
+!outputs/gentrification_shap_values.csv
+
+# ── Credentials ────────────────────────────────────────────────────────────
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# ── API response caches ────────────────────────────────────────────────────
+yelp_cache/
+geocode_cache.csv
+
+# ── Python / Jupyter ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.pkl
+*.joblib
+
+# ── OS ─────────────────────────────────────────────────────────────────────
+.DS_Store
