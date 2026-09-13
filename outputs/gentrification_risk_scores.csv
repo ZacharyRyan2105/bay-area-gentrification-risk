@@ -1,0 +1,342 @@
+tract_id,city,lr_risk_score,rf_risk_score,xgb_risk_score,risk_score,risk_tier,top_risk_driver,driver_direction
+06001403100,Oakland,0.0467,0.0886,0.5739,0.2364,Low,delta_share_black,↑ increases risk
+06001406000,Oakland,0.0467,0.1983,0.3166,0.1872,Low,pct_rent_burden,↓ decreases risk
+06075017700,San Francisco,0.0467,0.245,0.2509,0.1809,Low,delta_share_black,↓ decreases risk
+06001401100,Oakland,0.0468,0.2573,0.2268,0.177,Low,pct_rent_burden,↓ decreases risk
+06085505203,San Jose,0.0608,0.3983,0.0314,0.1635,Low,share_pre1940,↓ decreases risk
+06085503804,San Jose,0.0488,0.2854,0.1284,0.1542,Low,pct_population,↓ decreases risk
+06085503312,San Jose,0.047,0.351,0.0308,0.1429,Low,share_pre1940,↓ decreases risk
+06085503210,San Jose,0.047,0.2098,0.1717,0.1428,Low,pct_population,↓ decreases risk
+06085504505,San Jose,0.0473,0.1886,0.1913,0.1424,Low,pct_population,↑ increases risk
+06085503112,San Jose,0.0469,0.3462,0.0085,0.1339,Low,delta_share_black,↓ decreases risk
+06085503506,San Jose,0.0477,0.2811,0.0698,0.1329,Low,delta_share_black,↑ increases risk
+06085500100,San Jose,0.0468,0.3336,0.0092,0.1299,Low,delta_share_black,↓ decreases risk
+06001401300,Oakland,0.0467,0.1949,0.1305,0.1241,Low,pct_rent_burden,↓ decreases risk
+06085506401,San Jose,0.047,0.3132,0.0076,0.1226,Low,delta_share_black,↓ decreases risk
+06085501000,San Jose,0.0469,0.3056,0.0123,0.1216,Low,delta_share_black,↓ decreases risk
+06085502901,San Jose,0.0472,0.2964,0.0124,0.1186,Low,pct_population,↓ decreases risk
+06085503509,San Jose,0.0468,0.212,0.0955,0.1181,Low,pct_population,↓ decreases risk
+06085500400,San Jose,0.0539,0.287,0.0047,0.1152,Low,delta_share_black,↓ decreases risk
+06085503111,San Jose,0.0477,0.2657,0.0317,0.115,Low,pct_population,↓ decreases risk
+06085503504,San Jose,0.0478,0.2449,0.0495,0.1141,Low,delta_share_black,↓ decreases risk
+06085503508,San Jose,0.0472,0.2834,0.0063,0.1123,Low,share_pre1940,↓ decreases risk
+06085503703,San Jose,0.0467,0.2861,0.0024,0.1118,Low,delta_share_black,↓ decreases risk
+06085506102,San Jose,0.0589,0.2408,0.0307,0.1101,Low,delta_share_black,↓ decreases risk
+06085505800,San Jose,0.0468,0.251,0.0222,0.1066,Low,delta_share_black,↓ decreases risk
+06085504320,San Jose,0.0468,0.1187,0.1515,0.1057,Low,pct_population,↓ decreases risk
+06085506305,San Jose,0.0467,0.2629,0.0031,0.1042,Low,delta_share_black,↓ decreases risk
+06001403000,Oakland,0.0467,0.1156,0.1463,0.1029,Low,pct_population,↓ decreases risk
+06075015500,San Francisco,0.0467,0.1467,0.115,0.1028,Low,pct_population,↓ decreases risk
+06085501300,San Jose,0.047,0.2556,0.0009,0.1012,Low,delta_share_black,↓ decreases risk
+06085503707,San Jose,0.0468,0.2552,0.0009,0.101,Low,delta_share_black,↓ decreases risk
+06085503511,San Jose,0.0531,0.2076,0.0307,0.0971,Low,pct_population,↓ decreases risk
+06075022903,San Francisco,0.0525,0.2201,0.0178,0.0968,Low,delta_share_black,↓ decreases risk
+06075015600,San Francisco,0.0471,0.2256,0.0117,0.0948,Low,share_pre1940,↓ decreases risk
+06085512034,San Jose,0.0491,0.199,0.035,0.0944,Low,pct_population,↓ decreases risk
+06085500901,San Jose,0.0467,0.2269,0.0077,0.0938,Low,pct_population,↓ decreases risk
+06085502002,San Jose,0.0467,0.2108,0.0207,0.0927,Low,delta_share_black,↓ decreases risk
+06085503113,San Jose,0.047,0.2197,0.0092,0.092,Low,delta_share_black,↓ decreases risk
+06075016000,San Francisco,0.0469,0.2227,0.005,0.0915,Low,delta_share_black,↓ decreases risk
+06085506605,San Jose,0.0469,0.2239,0.0032,0.0913,Low,delta_share_black,↓ decreases risk
+06085500300,San Jose,0.0467,0.2213,0.0025,0.0902,Low,share_pre1940,↓ decreases risk
+06085504318,San Jose,0.0468,0.2128,0.0103,0.09,Low,delta_share_black,↓ decreases risk
+06075022902,San Francisco,0.0468,0.1969,0.0262,0.09,Low,pct_population,↓ decreases risk
+06075018000,San Francisco,0.0608,0.1717,0.037,0.0898,Low,delta_share_black,↓ decreases risk
+06085512021,San Jose,0.052,0.1991,0.0146,0.0886,Low,delta_share_black,↓ decreases risk
+06085503110,San Jose,0.0475,0.1377,0.0776,0.0876,Low,pct_population,↓ decreases risk
+06001406100,Oakland,0.0467,0.1511,0.0627,0.0869,Low,share_pre1940,↓ decreases risk
+06075022801,San Francisco,0.0467,0.1576,0.0544,0.0862,Low,pct_population,↓ decreases risk
+06085505007,San Jose,0.0469,0.2059,0.0029,0.0852,Low,delta_share_black,↓ decreases risk
+06001432100,Oakland,0.0467,0.1729,0.0328,0.0841,Low,share_pre1940,↓ decreases risk
+06001400900,Oakland,0.0467,0.16,0.0435,0.0834,Low,delta_share_black,↓ decreases risk
+06085506103,San Jose,0.0506,0.1502,0.045,0.0819,Low,delta_share_black,↓ decreases risk
+06085504001,San Jose,0.0507,0.1921,0.002,0.0816,Low,delta_share_black,↓ decreases risk
+06085503003,San Jose,0.0565,0.1745,0.0136,0.0815,Low,delta_share_black,↓ decreases risk
+06001400300,Oakland,0.047,0.1905,0.005,0.0808,Low,delta_share_black,↓ decreases risk
+06085504410,San Jose,0.0469,0.1828,0.0118,0.0805,Low,delta_share_black,↓ decreases risk
+06001402600,Oakland,0.0569,0.0992,0.0848,0.0803,Low,pct_population,↓ decreases risk
+06085512019,San Jose,0.0542,0.1591,0.0276,0.0803,Low,delta_share_black,↓ decreases risk
+06085512032,San Jose,0.0483,0.1513,0.0407,0.0801,Low,delta_share_black,↓ decreases risk
+06075042700,San Francisco,0.0467,0.1901,0.0005,0.0791,Low,delta_share_black,↓ decreases risk
+06085512023,San Jose,0.0473,0.1824,0.0067,0.0788,Low,delta_share_black,↓ decreases risk
+06075012100,San Francisco,0.0467,0.1036,0.0862,0.0788,Low,delta_share_black,↓ decreases risk
+06001401200,Oakland,0.0467,0.1834,0.0045,0.0782,Low,delta_share_black,↓ decreases risk
+06085503709,San Jose,0.0467,0.0795,0.1084,0.0782,Low,pct_rent_burden,↓ decreases risk
+06085512022,San Jose,0.0469,0.1694,0.0147,0.077,Low,delta_share_black,↓ decreases risk
+06085500800,San Jose,0.0468,0.1676,0.0154,0.0766,Low,delta_share_black,↓ decreases risk
+06075026001,San Francisco,0.0467,0.1671,0.0157,0.0765,Low,share_pre1940,↓ decreases risk
+06075022600,San Francisco,0.0469,0.1323,0.0501,0.0764,Low,delta_share_black,↓ decreases risk
+06085504311,San Jose,0.047,0.1434,0.0376,0.076,Low,pct_population,↓ decreases risk
+06085502001,San Jose,0.0467,0.1761,0.004,0.0756,Low,share_pre1940,↓ decreases risk
+06085511911,San Jose,0.0467,0.1742,0.0042,0.075,Low,delta_share_black,↓ decreases risk
+06085502400,San Jose,0.0608,0.1615,0.0024,0.0749,Low,delta_share_black,↓ decreases risk
+06085504314,San Jose,0.0471,0.1191,0.0582,0.0748,Low,pct_population,↓ decreases risk
+06085505100,San Jose,0.0467,0.173,0.0024,0.074,Low,delta_share_black,↓ decreases risk
+06085503322,San Jose,0.0468,0.1674,0.0042,0.0728,Low,delta_share_black,↓ decreases risk
+06001402700,Oakland,0.0467,0.0973,0.0739,0.0727,Low,pct_population,↓ decreases risk
+06085503304,San Jose,0.0467,0.1605,0.0095,0.0723,Low,delta_share_black,↓ decreases risk
+06085503510,San Jose,0.0471,0.1626,0.0046,0.0714,Low,delta_share_black,↓ decreases risk
+06085512024,San Jose,0.047,0.1641,0.0028,0.0713,Low,delta_share_black,↓ decreases risk
+06075022901,San Francisco,0.0468,0.1645,0.0018,0.071,Low,delta_share_black,↓ decreases risk
+06085501200,San Jose,0.0488,0.1563,0.0027,0.0693,Low,delta_share_black,↓ decreases risk
+06085506606,San Jose,0.0502,0.1514,0.0059,0.0692,Low,delta_share_black,↓ decreases risk
+06085503306,San Jose,0.0511,0.1458,0.0103,0.0691,Low,delta_share_black,↓ decreases risk
+06085506601,San Jose,0.0469,0.1524,0.0064,0.0686,Low,delta_share_black,↓ decreases risk
+06085502903,San Jose,0.0584,0.1402,0.0063,0.0683,Low,delta_share_black,↓ decreases risk
+06085503802,San Jose,0.0546,0.1429,0.0067,0.0681,Low,delta_share_black,↓ decreases risk
+06085503402,San Jose,0.0469,0.1488,0.008,0.0679,Low,delta_share_black,↓ decreases risk
+06085502601,San Jose,0.0565,0.1396,0.0066,0.0676,Low,delta_share_black,↓ decreases risk
+06085503218,San Jose,0.0467,0.1487,0.0051,0.0669,Low,delta_share_black,↓ decreases risk
+06085502907,San Jose,0.0487,0.1321,0.0193,0.0667,Low,pct_population,↓ decreases risk
+06085503315,San Jose,0.0473,0.1421,0.0101,0.0665,Low,delta_share_black,↓ decreases risk
+06001404800,Oakland,0.0467,0.1495,0.0016,0.066,Low,delta_share_black,↓ decreases risk
+06075021300,San Francisco,0.0471,0.1341,0.0143,0.0652,Low,delta_share_black,↓ decreases risk
+06085504317,San Jose,0.0556,0.1274,0.0105,0.0645,Low,delta_share_black,↓ decreases risk
+06085502902,San Jose,0.0582,0.1323,0.0019,0.0641,Low,delta_share_black,↓ decreases risk
+06085512026,San Jose,0.0478,0.1241,0.0189,0.0636,Low,delta_share_black,↓ decreases risk
+06085504102,San Jose,0.0475,0.1424,0.001,0.0636,Low,delta_share_black,↓ decreases risk
+06085512029,San Jose,0.0525,0.1143,0.0234,0.0634,Low,delta_share_black,↓ decreases risk
+06085503507,San Jose,0.0467,0.1381,0.0039,0.0629,Low,delta_share_black,↓ decreases risk
+06075010800,San Francisco,0.0467,0.1365,0.0043,0.0625,Low,pct_population,↓ decreases risk
+06001406900,Oakland,0.0467,0.1387,0.0015,0.0623,Low,delta_share_black,↓ decreases risk
+06085503217,San Jose,0.0473,0.1351,0.0041,0.0622,Low,delta_share_black,↓ decreases risk
+06085502910,San Jose,0.0469,0.1327,0.0046,0.0614,Low,delta_share_black,↓ decreases risk
+06085502800,San Jose,0.0521,0.1256,0.0059,0.0612,Low,delta_share_black,↓ decreases risk
+06085511914,San Jose,0.0561,0.1218,0.004,0.0606,Low,delta_share_black,↓ decreases risk
+06085500600,San Jose,0.0467,0.1317,0.0012,0.0599,Low,delta_share_black,↓ decreases risk
+06085501501,San Jose,0.0467,0.1203,0.0121,0.0597,Low,delta_share_black,↓ decreases risk
+06085512027,San Jose,0.0477,0.1295,0.0015,0.0596,Low,delta_share_black,↓ decreases risk
+06085503105,San Jose,0.0467,0.0879,0.0438,0.0595,Low,delta_share_black,↓ decreases risk
+06001401600,Oakland,0.0472,0.1231,0.0083,0.0595,Low,delta_share_black,↓ decreases risk
+06085503116,San Jose,0.0468,0.127,0.0042,0.0593,Low,delta_share_black,↓ decreases risk
+06085500200,San Jose,0.0467,0.1127,0.0173,0.0589,Low,share_pre1940,↓ decreases risk
+06085503708,San Jose,0.0468,0.12,0.0087,0.0585,Low,delta_share_black,↓ decreases risk
+06085502500,San Jose,0.053,0.1215,0.0006,0.0584,Low,delta_share_black,↓ decreases risk
+06085503305,San Jose,0.0522,0.1176,0.0049,0.0582,Low,delta_share_black,↓ decreases risk
+06075033100,San Francisco,0.0467,0.1225,0.005,0.0581,Low,share_pre1940,↓ decreases risk
+06085503207,San Jose,0.0579,0.108,0.007,0.0576,Low,delta_share_black,↓ decreases risk
+06085501700,San Jose,0.0467,0.1172,0.0085,0.0575,Low,delta_share_black,↓ decreases risk
+06075030102,San Francisco,0.0608,0.0761,0.035,0.0573,Low,pct_population,↓ decreases risk
+06085504201,San Jose,0.0467,0.1241,0.0006,0.0572,Low,delta_share_black,↓ decreases risk
+06075010600,San Francisco,0.0467,0.11,0.0139,0.0569,Low,share_pre1940,↓ decreases risk
+06001401400,Oakland,0.0467,0.1154,0.0081,0.0568,Low,share_pre1940,↓ decreases risk
+06085511912,San Jose,0.0486,0.1198,0.0012,0.0565,Low,delta_share_black,↓ decreases risk
+06075040100,San Francisco,0.0468,0.1135,0.0049,0.0551,Low,delta_share_black,↓ decreases risk
+06085500500,San Jose,0.0566,0.1047,0.0007,0.054,Low,delta_share_black,↓ decreases risk
+06001423902,Oakland,0.0467,0.1043,0.011,0.054,Low,share_pre1940,↓ decreases risk
+06001409400,Oakland,0.0467,0.092,0.0231,0.0539,Low,share_pre1940,↓ decreases risk
+06085504101,San Jose,0.0467,0.1108,0.0032,0.0536,Low,delta_share_black,↓ decreases risk
+06085503401,San Jose,0.0472,0.1079,0.0045,0.0532,Low,delta_share_black,↓ decreases risk
+06085504002,San Jose,0.0468,0.1107,0.0015,0.053,Low,delta_share_black,↓ decreases risk
+06085512031,San Jose,0.0499,0.0972,0.0108,0.0526,Low,delta_share_black,↓ decreases risk
+06085507002,San Jose,0.0604,0.0922,0.0038,0.0521,Low,delta_share_black,↓ decreases risk
+06085501800,San Jose,0.0608,0.0942,0.0008,0.0519,Low,delta_share_black,↓ decreases risk
+06085503213,San Jose,0.047,0.1,0.0063,0.0511,Low,delta_share_black,↓ decreases risk
+06085506301,San Jose,0.0468,0.0988,0.0055,0.0504,Low,delta_share_black,↓ decreases risk
+06085503602,San Jose,0.0467,0.1031,0.0015,0.0504,Low,delta_share_black,↓ decreases risk
+06001402200,Oakland,0.0468,0.0631,0.0411,0.0503,Low,pct_population,↓ decreases risk
+06075011200,San Francisco,0.0467,0.0778,0.0257,0.0501,Low,delta_share_black,↓ decreases risk
+06085512030,San Jose,0.0488,0.0798,0.0211,0.0499,Low,delta_share_black,↓ decreases risk
+06085503208,San Jose,0.0471,0.0968,0.006,0.0499,Low,delta_share_black,↓ decreases risk
+06001407300,Oakland,0.0467,0.085,0.016,0.0493,Low,delta_share_black,↓ decreases risk
+06001424001,Oakland,0.0467,0.0986,0.0022,0.0492,Low,delta_share_black,↓ decreases risk
+06085503002,San Jose,0.0491,0.0939,0.002,0.0484,Low,delta_share_black,↓ decreases risk
+06001424002,Oakland,0.0467,0.0905,0.0078,0.0483,Low,delta_share_black,↓ decreases risk
+06075015100,San Francisco,0.0468,0.085,0.0122,0.048,Low,pct_population,↓ decreases risk
+06075016400,San Francisco,0.0468,0.0793,0.0173,0.0478,Low,delta_share_black,↓ decreases risk
+06085502908,San Jose,0.0501,0.0877,0.0043,0.0474,Low,delta_share_black,↓ decreases risk
+06001432200,Oakland,0.0467,0.094,0.0015,0.0474,Low,delta_share_black,↓ decreases risk
+06001400200,Oakland,0.0467,0.0916,0.004,0.0474,Low,delta_share_black,↓ decreases risk
+06075015300,San Francisco,0.0471,0.0917,0.0026,0.0472,Low,delta_share_black,↓ decreases risk
+06075030201,San Francisco,0.0467,0.081,0.0137,0.0471,Low,delta_share_black,↓ decreases risk
+06001406201,Oakland,0.0467,0.0785,0.0158,0.047,Low,delta_share_black,↓ decreases risk
+06001432400,Oakland,0.0467,0.0938,0.0005,0.047,Low,delta_share_black,↓ decreases risk
+06001407600,Oakland,0.0467,0.0933,0.0007,0.0469,Low,delta_share_black,↓ decreases risk
+06075023300,San Francisco,0.0467,0.09,0.003,0.0466,Low,delta_share_black,↓ decreases risk
+06001408100,Oakland,0.0467,0.079,0.0141,0.0466,Low,pct_population,↓ decreases risk
+06085504319,San Jose,0.0484,0.0876,0.0035,0.0465,Low,delta_share_black,↓ decreases risk
+06001422000,Oakland,0.0467,0.0904,0.0024,0.0465,Low,share_pre1940,↓ decreases risk
+06085512025,San Jose,0.0524,0.0843,0.0028,0.0465,Low,delta_share_black,↓ decreases risk
+06001407200,Oakland,0.0467,0.0916,0.001,0.0464,Low,delta_share_black,↓ decreases risk
+06085511905,San Jose,0.0577,0.0793,0.0012,0.0461,Low,delta_share_black,↓ decreases risk
+06001427300,Oakland,0.0467,0.09,0.0006,0.0458,Low,delta_share_black,↓ decreases risk
+06085503212,San Jose,0.0477,0.0858,0.0027,0.0454,Low,delta_share_black,↓ decreases risk
+06085502701,San Jose,0.0468,0.0889,0.0006,0.0454,Low,delta_share_black,↓ decreases risk
+06075016300,San Francisco,0.0467,0.0655,0.0236,0.0453,Low,pct_population,↓ decreases risk
+06075016700,San Francisco,0.0468,0.0808,0.008,0.0452,Low,delta_share_black,↓ decreases risk
+06001400800,Oakland,0.0467,0.0878,0.0007,0.0451,Low,delta_share_black,↓ decreases risk
+06085512100,San Jose,0.0468,0.0841,0.0033,0.0447,Low,delta_share_black,↓ decreases risk
+06085503803,San Jose,0.0468,0.0814,0.006,0.0447,Low,delta_share_black,↓ decreases risk
+06075026100,San Francisco,0.0467,0.086,0.0006,0.0444,Low,delta_share_black,↓ decreases risk
+06075015900,San Francisco,0.0467,0.078,0.0074,0.0441,Low,delta_share_black,↓ decreases risk
+06075025900,San Francisco,0.0467,0.0797,0.0045,0.0436,Low,delta_share_black,↓ decreases risk
+06085504316,San Jose,0.0471,0.0814,0.002,0.0435,Low,delta_share_black,↓ decreases risk
+06075025800,San Francisco,0.0467,0.0829,0.0009,0.0435,Low,delta_share_black,↓ decreases risk
+06001408600,Oakland,0.0467,0.0813,0.001,0.043,Low,delta_share_black,↓ decreases risk
+06001406800,Oakland,0.0467,0.0542,0.0279,0.0429,Low,share_pre1940,↓ decreases risk
+06085506304,San Jose,0.0468,0.0663,0.0142,0.0425,Low,pct_population,↓ decreases risk
+06085503327,San Jose,0.048,0.0776,0.0019,0.0425,Low,delta_share_black,↓ decreases risk
+06085503001,San Jose,0.0572,0.0687,0.0006,0.0422,Low,delta_share_black,↓ decreases risk
+06001406202,Oakland,0.0467,0.0772,0.0024,0.0421,Low,delta_share_black,↓ decreases risk
+06085503324,San Jose,0.0473,0.0767,0.0022,0.042,Low,delta_share_black,↓ decreases risk
+06001409000,Oakland,0.0467,0.0748,0.0039,0.0418,Low,delta_share_black,↓ decreases risk
+06085503326,San Jose,0.048,0.0704,0.006,0.0415,Low,delta_share_black,↓ decreases risk
+06075025402,San Francisco,0.0468,0.0721,0.005,0.0413,Low,delta_share_black,↓ decreases risk
+06085511913,San Jose,0.0599,0.0613,0.0027,0.0413,Low,delta_share_black,↓ decreases risk
+06001403800,Oakland,0.0467,0.0759,0.0011,0.0412,Low,delta_share_black,↓ decreases risk
+06085504321,San Jose,0.0467,0.0736,0.0023,0.0409,Low,delta_share_black,↓ decreases risk
+06075030101,San Francisco,0.0608,0.0612,0.0008,0.0409,Low,delta_share_black,↓ decreases risk
+06075013200,San Francisco,0.0467,0.0748,0.0012,0.0409,Low,delta_share_black,↓ decreases risk
+06085505700,San Jose,0.047,0.0745,0.001,0.0408,Low,delta_share_black,↓ decreases risk
+06001402500,Oakland,0.0467,0.06,0.0156,0.0408,Low,delta_share_black,↓ decreases risk
+06085504308,San Jose,0.0489,0.0694,0.0033,0.0406,Low,delta_share_black,↓ decreases risk
+06001401500,Oakland,0.0467,0.0579,0.0158,0.0402,Low,share_pre1940,↓ decreases risk
+06001407400,Oakland,0.0467,0.0664,0.0067,0.0399,Low,share_pre1940,↓ decreases risk
+06085501502,San Jose,0.0496,0.0676,0.0025,0.0399,Low,delta_share_black,↓ decreases risk
+06075035201,San Francisco,0.0467,0.0718,0.0008,0.0398,Low,delta_share_black,↓ decreases risk
+06085503321,San Jose,0.0468,0.0711,0.0012,0.0397,Low,delta_share_black,↓ decreases risk
+06001405800,Oakland,0.0468,0.0589,0.0133,0.0397,Low,pct_population,↓ decreases risk
+06001428100,Oakland,0.0467,0.0713,0.0008,0.0396,Low,delta_share_black,↓ decreases risk
+06075022702,San Francisco,0.047,0.0532,0.0183,0.0395,Low,delta_share_black,↓ decreases risk
+06085502906,San Jose,0.0467,0.0678,0.0037,0.0394,Low,delta_share_black,↓ decreases risk
+06001404900,Oakland,0.0467,0.0703,0.0007,0.0392,Low,delta_share_black,↓ decreases risk
+06085511800,San Jose,0.0468,0.0677,0.0028,0.0391,Low,delta_share_black,↓ decreases risk
+06075025300,San Francisco,0.0467,0.0672,0.0024,0.0388,Low,delta_share_black,↓ decreases risk
+06075011300,San Francisco,0.0467,0.0587,0.0109,0.0388,Low,share_pre1940,↓ decreases risk
+06075011700,San Francisco,0.0467,0.066,0.0033,0.0387,Low,delta_share_black,↓ decreases risk
+06075016900,San Francisco,0.0467,0.0656,0.0031,0.0385,Low,delta_share_black,↓ decreases risk
+06001427200,Oakland,0.0467,0.0568,0.0119,0.0385,Low,share_pre1940,↓ decreases risk
+06075026301,San Francisco,0.0467,0.066,0.0016,0.0381,Low,delta_share_black,↓ decreases risk
+06001402400,Oakland,0.0467,0.0566,0.0101,0.0378,Low,delta_share_black,↓ decreases risk
+06001408400,Oakland,0.0467,0.0658,0.0009,0.0378,Low,delta_share_black,↓ decreases risk
+06001409700,Oakland,0.0467,0.0282,0.0372,0.0374,Low,share_pre1940,↓ decreases risk
+06075021000,San Francisco,0.0467,0.064,0.001,0.0373,Low,delta_share_black,↓ decreases risk
+06085505006,San Jose,0.0468,0.0625,0.0013,0.0369,Low,delta_share_black,↓ decreases risk
+06001401700,Oakland,0.0467,0.0482,0.0152,0.0367,Low,share_pre1940,↓ decreases risk
+06001401000,Oakland,0.0467,0.0545,0.0081,0.0365,Low,share_pre1940,↓ decreases risk
+06001407000,Oakland,0.0467,0.0617,0.0004,0.0363,Low,delta_share_black,↓ decreases risk
+06075021500,San Francisco,0.0467,0.0604,0.0013,0.0362,Low,delta_share_black,↓ decreases risk
+06085512005,San Jose,0.0473,0.0591,0.002,0.0362,Low,delta_share_black,↓ decreases risk
+06075045100,San Francisco,0.0467,0.057,0.0045,0.0361,Low,delta_share_black,↓ decreases risk
+06075022802,San Francisco,0.047,0.0591,0.0019,0.036,Low,delta_share_black,↓ decreases risk
+06085503325,San Jose,0.0468,0.0571,0.0042,0.036,Low,delta_share_black,↓ decreases risk
+06075021400,San Francisco,0.0469,0.0552,0.0053,0.0358,Low,delta_share_black,↓ decreases risk
+06075031100,San Francisco,0.0467,0.055,0.0055,0.0357,Low,share_pre1940,↓ decreases risk
+06075025600,San Francisco,0.0467,0.0586,0.0014,0.0356,Low,delta_share_black,↓ decreases risk
+06085503211,San Jose,0.0468,0.0574,0.0021,0.0354,Low,delta_share_black,↓ decreases risk
+06001404400,Oakland,0.0467,0.0585,0.0009,0.0354,Low,delta_share_black,↓ decreases risk
+06075020900,San Francisco,0.0467,0.0574,0.0018,0.0353,Low,delta_share_black,↓ decreases risk
+06075030900,San Francisco,0.0467,0.0568,0.0022,0.0353,Low,delta_share_black,↓ decreases risk
+06001403600,Oakland,0.0467,0.0514,0.007,0.035,Low,delta_share_black,↓ decreases risk
+06075040200,San Francisco,0.0467,0.0554,0.0024,0.0348,Low,delta_share_black,↓ decreases risk
+06001400700,Oakland,0.0467,0.0544,0.0029,0.0347,Low,delta_share_black,↓ decreases risk
+06075023001,San Francisco,0.0467,0.0566,0.0005,0.0346,Low,delta_share_black,↓ decreases risk
+06085504416,San Jose,0.0467,0.0518,0.0045,0.0343,Low,delta_share_black,↓ decreases risk
+06075025100,San Francisco,0.0467,0.0549,0.0009,0.0342,Low,delta_share_black,↓ decreases risk
+06075035202,San Francisco,0.0467,0.055,0.001,0.0342,Low,delta_share_black,↓ decreases risk
+06001410300,Oakland,0.0467,0.0526,0.003,0.0341,Low,delta_share_black,↓ decreases risk
+06085506900,San Jose,0.0496,0.0508,0.0005,0.0336,Low,delta_share_black,↓ decreases risk
+06001403900,Oakland,0.0467,0.0482,0.0041,0.033,Low,delta_share_black,↓ decreases risk
+06001441503,San Jose,0.0467,0.0511,0.0009,0.0329,Low,delta_share_black,↓ decreases risk
+06001409200,Oakland,0.0467,0.0499,0.0017,0.0328,Low,delta_share_black,↓ decreases risk
+06001408700,Oakland,0.0467,0.0467,0.004,0.0325,Low,delta_share_black,↓ decreases risk
+06075026002,San Francisco,0.0467,0.0493,0.0011,0.0324,Low,delta_share_black,↓ decreases risk
+06001406500,Oakland,0.0467,0.0403,0.0098,0.0323,Low,share_pre1940,↓ decreases risk
+06075016500,San Francisco,0.0467,0.0443,0.0052,0.0321,Low,delta_share_black,↓ decreases risk
+06075030302,San Francisco,0.0467,0.0474,0.0006,0.0316,Low,delta_share_black,↓ decreases risk
+06001405500,Oakland,0.0467,0.0471,0.0009,0.0316,Low,delta_share_black,↓ decreases risk
+06075010300,San Francisco,0.0467,0.0319,0.0158,0.0315,Low,delta_share_black,↓ decreases risk
+06001409600,Oakland,0.0467,0.0456,0.0014,0.0313,Low,delta_share_black,↓ decreases risk
+06075026402,San Francisco,0.0467,0.0461,0.001,0.0313,Low,delta_share_black,↓ decreases risk
+06075022803,San Francisco,0.0467,0.0444,0.0021,0.0311,Low,delta_share_black,↓ decreases risk
+06001423901,Oakland,0.0467,0.0451,0.0008,0.0309,Low,delta_share_black,↓ decreases risk
+06001407500,Oakland,0.0467,0.0435,0.0013,0.0305,Low,delta_share_black,↓ decreases risk
+06001408800,Oakland,0.0467,0.041,0.0036,0.0304,Low,delta_share_black,↓ decreases risk
+06001408000,Oakland,0.0467,0.04,0.004,0.0302,Low,delta_share_black,↓ decreases risk
+06001409100,Oakland,0.0467,0.0427,0.0008,0.0301,Low,delta_share_black,↓ decreases risk
+06075030400,San Francisco,0.0467,0.0428,0.0008,0.0301,Low,delta_share_black,↓ decreases risk
+06075013300,San Francisco,0.0467,0.0424,0.0009,0.03,Low,delta_share_black,↓ decreases risk
+06075047701,San Francisco,0.0467,0.0414,0.0018,0.03,Low,delta_share_black,↓ decreases risk
+06001410100,Oakland,0.0467,0.0421,0.0006,0.0298,Low,delta_share_black,↓ decreases risk
+06075030202,San Francisco,0.0468,0.037,0.005,0.0296,Low,delta_share_black,↓ decreases risk
+06075026004,San Francisco,0.0467,0.0352,0.0067,0.0296,Low,share_pre1940,↓ decreases risk
+06075032700,San Francisco,0.0467,0.0412,0.0007,0.0295,Low,delta_share_black,↓ decreases risk
+06075030600,San Francisco,0.0467,0.0371,0.0038,0.0292,Low,delta_share_black,↓ decreases risk
+06085502909,San Jose,0.0468,0.0393,0.0011,0.029,Low,delta_share_black,↓ decreases risk
+06075023003,San Francisco,0.0467,0.0387,0.0007,0.0287,Low,delta_share_black,↓ decreases risk
+06085506603,San Jose,0.0476,0.0375,0.0012,0.0287,Low,delta_share_black,↓ decreases risk
+06075010500,San Francisco,0.0467,0.037,0.0022,0.0286,Low,delta_share_black,↓ decreases risk
+06075026401,San Francisco,0.0467,0.0317,0.0071,0.0285,Low,share_pre1940,↓ decreases risk
+06001428200,Oakland,0.0467,0.0378,0.0009,0.0285,Low,delta_share_black,↓ decreases risk
+06001404502,Oakland,0.0467,0.0384,0.0005,0.0285,Low,delta_share_black,↓ decreases risk
+06075023400,San Francisco,0.0467,0.0252,0.0128,0.0282,Low,pct_rent_burden,↓ decreases risk
+06001400100,Oakland,0.0467,0.0306,0.0073,0.0282,Low,share_pre1940,↓ decreases risk
+06075035300,San Francisco,0.0467,0.0367,0.0006,0.028,Low,delta_share_black,↓ decreases risk
+06075013500,San Francisco,0.0474,0.0326,0.0035,0.0279,Low,delta_share_black,↓ decreases risk
+06001404000,Oakland,0.0467,0.0342,0.0018,0.0276,Low,share_pre1940,↓ decreases risk
+06075012700,San Francisco,0.0467,0.0331,0.001,0.0269,Low,delta_share_black,↓ decreases risk
+06075025200,San Francisco,0.0477,0.0303,0.0026,0.0269,Low,delta_share_black,↓ decreases risk
+06001405200,Oakland,0.0467,0.0317,0.0021,0.0268,Low,share_pre1940,↓ decreases risk
+06085504307,San Jose,0.0468,0.0319,0.0013,0.0267,Low,delta_share_black,↓ decreases risk
+06085511907,San Jose,0.0468,0.0317,0.0013,0.0266,Low,delta_share_black,↓ decreases risk
+06001404200,Oakland,0.0467,0.0309,0.001,0.0262,Low,delta_share_black,↓ decreases risk
+06001428301,Oakland,0.0467,0.0311,0.0008,0.0262,Low,delta_share_black,↓ decreases risk
+06001401800,Oakland,0.0467,0.0287,0.0028,0.0261,Low,delta_share_black,↓ decreases risk
+06075020500,San Francisco,0.0467,0.028,0.0026,0.0258,Low,delta_share_black,↓ decreases risk
+06085503601,San Jose,0.0467,0.0296,0.0008,0.0257,Low,delta_share_black,↓ decreases risk
+06001405600,Oakland,0.0467,0.0285,0.002,0.0257,Low,delta_share_black,↓ decreases risk
+06001404600,Oakland,0.0467,0.0271,0.0027,0.0255,Low,share_pre1940,↓ decreases risk
+06085504411,San Jose,0.0469,0.0271,0.0023,0.0254,Low,delta_share_black,↓ decreases risk
+06001406400,Oakland,0.0467,0.0262,0.0022,0.025,Low,delta_share_black,↓ decreases risk
+06001409500,Oakland,0.0467,0.0261,0.001,0.0246,Low,delta_share_black,↓ decreases risk
+06001432300,Oakland,0.0467,0.0242,0.0019,0.0243,Low,delta_share_black,↓ decreases risk
+06075020300,San Francisco,0.0467,0.0244,0.0015,0.0242,Low,delta_share_black,↓ decreases risk
+06001410400,Oakland,0.0467,0.0254,0.0005,0.0242,Low,delta_share_black,↓ decreases risk
+06001405000,Oakland,0.0467,0.0249,0.0005,0.0241,Low,delta_share_black,↓ decreases risk
+06001400500,Oakland,0.0467,0.0249,0.0003,0.024,Low,delta_share_black,↓ decreases risk
+06075023102,San Francisco,0.0467,0.0243,0.001,0.024,Low,delta_share_black,↓ decreases risk
+06075025401,San Francisco,0.0467,0.0235,0.0017,0.024,Low,delta_share_black,↓ decreases risk
+06001404700,Oakland,0.0467,0.0237,0.0011,0.0238,Low,delta_share_black,↓ decreases risk
+06075047600,San Francisco,0.0467,0.0226,0.0017,0.0237,Low,delta_share_black,↓ decreases risk
+06001406700,Oakland,0.0467,0.024,0.0005,0.0237,Low,delta_share_black,↓ decreases risk
+06001409900,Oakland,0.0467,0.0223,0.0018,0.0236,Low,share_pre1940,↓ decreases risk
+06075021200,San Francisco,0.0467,0.0231,0.001,0.0236,Low,delta_share_black,↓ decreases risk
+06075047702,San Francisco,0.0467,0.0231,0.001,0.0236,Low,delta_share_black,↓ decreases risk
+06001409300,Oakland,0.0467,0.0203,0.0027,0.0232,Low,delta_share_black,↓ decreases risk
+06001407700,Oakland,0.0467,0.0218,0.0009,0.0231,Low,delta_share_black,↓ decreases risk
+06085504315,San Jose,0.0467,0.0215,0.0011,0.0231,Low,delta_share_black,↓ decreases risk
+06001406300,Oakland,0.0467,0.0197,0.0024,0.0229,Low,delta_share_black,↓ decreases risk
+06085511910,San Jose,0.0467,0.0196,0.0024,0.0229,Low,delta_share_black,↓ decreases risk
+06001400600,Oakland,0.0467,0.021,0.0006,0.0228,Low,delta_share_black,↓ decreases risk
+06001405700,Oakland,0.0467,0.0211,0.0004,0.0227,Low,delta_share_black,↓ decreases risk
+06075021800,San Francisco,0.0467,0.0186,0.0018,0.0224,Low,delta_share_black,↓ decreases risk
+06001408500,Oakland,0.0467,0.0182,0.0012,0.022,Low,delta_share_black,↓ decreases risk
+06001409800,Oakland,0.0467,0.0186,0.0004,0.0219,Low,delta_share_black,↓ decreases risk
+06075025403,San Francisco,0.0467,0.018,0.0008,0.0218,Low,delta_share_black,↓ decreases risk
+06075030800,San Francisco,0.0467,0.0172,0.0006,0.0215,Low,delta_share_black,↓ decreases risk
+06075026003,San Francisco,0.0467,0.0166,0.0004,0.0213,Low,delta_share_black,↓ decreases risk
+06001410200,Oakland,0.0467,0.0161,0.0008,0.0212,Low,delta_share_black,↓ decreases risk
+06001404501,Oakland,0.0467,0.0157,0.0009,0.0211,Low,delta_share_black,↓ decreases risk
+06013352202,Oakland,0.0467,0.0141,0.0022,0.021,Low,delta_share_black,↓ decreases risk
+06001427100,Oakland,0.0467,0.0147,0.0014,0.0209,Low,delta_share_black,↓ decreases risk
+06001408300,Oakland,0.0467,0.0155,0.0006,0.0209,Low,delta_share_black,↓ decreases risk
+06075021700,San Francisco,0.0467,0.0149,0.0006,0.0207,Low,delta_share_black,↓ decreases risk
+06075035400,San Francisco,0.0467,0.0142,0.0008,0.0206,Low,delta_share_black,↓ decreases risk
+06001426100,Oakland,0.0467,0.0131,0.001,0.0203,Low,delta_share_black,↓ decreases risk
+06075047902,San Francisco,0.0467,0.0119,0.0014,0.02,Low,delta_share_black,↓ decreases risk
+06001400400,Oakland,0.0467,0.0126,0.0005,0.0199,Low,delta_share_black,↓ decreases risk
+06075021600,San Francisco,0.0467,0.0106,0.0021,0.0198,Low,share_pre1940,↓ decreases risk
+06001423800,Oakland,0.0467,0.0122,0.0005,0.0198,Low,delta_share_black,↓ decreases risk
+06075030700,San Francisco,0.0467,0.012,0.0007,0.0198,Low,delta_share_black,↓ decreases risk
+06001407800,Oakland,0.0467,0.0115,0.0009,0.0197,Low,delta_share_black,↓ decreases risk
+06085504415,San Jose,0.0468,0.0102,0.0019,0.0196,Low,delta_share_black,↓ decreases risk
+06001408900,Oakland,0.0467,0.0112,0.0009,0.0196,Low,delta_share_black,↓ decreases risk
+06001408200,Oakland,0.0467,0.0088,0.0007,0.0187,Low,delta_share_black,↓ decreases risk
+06013354001,Oakland,0.0467,0.0071,0.0019,0.0186,Low,delta_share_black,↓ decreases risk
+06001426200,Oakland,0.0467,0.0074,0.0012,0.0184,Low,delta_share_black,↓ decreases risk
+06075021100,San Francisco,0.0467,0.0081,0.0005,0.0184,Low,delta_share_black,↓ decreases risk
+06001407900,Oakland,0.0467,0.0066,0.0005,0.0179,Low,delta_share_black,↓ decreases risk
+06075017000,San Francisco,0.0467,0.0049,0.0012,0.0176,Low,delta_share_black,↓ decreases risk
+06001404300,Oakland,0.0467,0.003,0.0007,0.0168,Low,delta_share_black,↓ decreases risk
+06075042800,San Francisco,0.0469,0.0023,0.0004,0.0166,Low,delta_share_black,↓ decreases risk
+06075030301,San Francisco,0.0468,0.0017,0.0005,0.0163,Low,delta_share_black,↓ decreases risk
