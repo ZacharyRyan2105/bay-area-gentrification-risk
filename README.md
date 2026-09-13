@@ -114,6 +114,11 @@ figures/                                     maps and pipeline diagram
 data/README.md                               how to obtain each source
 ```
 
+`src/13_model_comparison.py` is a robustness check, not the headline model: it
+re-runs the three classifiers against a looser label (top-quartile appreciation
+alone, ~25% positive) across three alternative dataset constructions, to test
+whether the ranking of models holds when the label is less extreme.
+
 Raw data is not redistributed — see [`data/README.md`](data/README.md).
 
 ```bash
