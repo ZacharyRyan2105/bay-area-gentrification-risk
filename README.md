@@ -11,7 +11,7 @@ ZHVI covering 2011–2024.
 
 *The whole project on one page — [download the poster PDF](report/poster.pdf).*
 
-**[→ Open the interactive map](https://zacharyryan2105.github.io/bay-area-gentrification-risk/)** — hover any tract for its risk score, tier, and top driver.
+**[→ Open the interactive map](https://zacharyryan2105.github.io/Gentrification-Risk-Modeling/)** — hover any tract for its risk score, tier, and top driver.
 
 ---
 
