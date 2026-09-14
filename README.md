@@ -7,12 +7,11 @@ target anti-displacement resources by risk level **and** by mechanism, rather th
 by intuition. Built from ACS, LEHD LODES, municipal building permits, and Zillow
 ZHVI covering 2011–2024.
 
-![Gentrification risk by city](figures/risk_by_city.png)
+[![Bay Area Gentrification Risk Prediction by Tract — MS&E 125 project poster](figures/poster.png)](report/poster.pdf)
 
-*Relative gentrification risk for 2024 tracts, 3-model ensemble. Grey tracts are outside
-the modeled set (above city median income, or missing data).*
+*The whole project on one page — [download the poster PDF](report/poster.pdf).*
 
-**[→ Open the interactive map](https://ZacharyRyan2105.github.io/bay-area-gentrification-risk/)** — hover any tract for its risk score, tier, and top driver.
+**[→ Open the interactive map](https://zacharyryan2105.github.io/bay-area-gentrification-risk/)** — hover any tract for its risk score, tier, and top driver.
 
 ---
 
@@ -54,6 +53,11 @@ contains only real tracts. XGBoost skips SMOTE entirely and uses
 `scale_pos_weight = 42.5` instead.
 
 ## Results
+
+![Gentrification risk by city](figures/risk_by_city.png)
+
+*Relative gentrification risk for 2024 tracts, 3-model ensemble. Grey tracts are outside the
+modeled set (above city median income, or missing data).*
 
 Held-out validation is the 2015 → 2020 period, never seen during training or selection.
 
@@ -101,6 +105,16 @@ their levels, for the same circularity reason.
   developer find undervalued blocks. A model that predicts gentrification can accelerate
   it.
 
+## Report and documentation
+
+| Document | What it covers |
+|---|---|
+| [`report/poster.pdf`](report/poster.pdf) | The conference poster shown above |
+| [`report/final_report.pdf`](report/final_report.pdf) | Full write-up — motivation, method, results, limitations |
+| [`report/data_pipeline.pdf`](report/data_pipeline.pdf) | Feature engineering decisions and leakage controls |
+| [`report/data_management.pdf`](report/data_management.pdf) | How the sources were merged, cleaned, and split |
+| [`report/model_testing.pdf`](report/model_testing.pdf) | Walk-forward validation runs across model families |
+
 ## Repository
 
 ```
@@ -114,7 +128,9 @@ src/01..13_*.py                              standalone collection scripts — t
                                              and permit scraping the notebooks depend on
 src/exploratory/                             Yelp + Walk Score pulls (not in final features)
 outputs/                                     risk scores and SHAP values, 341 tracts
-figures/                                     maps and pipeline diagram
+figures/                                     poster, maps, pipeline diagram
+report/                                      poster, final report, method write-ups
+docs/index.html                              the interactive map served by GitHub Pages
 data/README.md                               how to obtain each source
 ```
 
