@@ -61,11 +61,11 @@ Held-out validation is the 2015 → 2020 period, never seen during training or s
 |---|---|---|
 | Logistic Regression (LASSO, calibrated) | 0.587 | 0.693 ± 0.176 |
 | Random Forest | 0.597 | 0.582 ± 0.261 |
-| **XGBoost (tuned)** | **0.634** | **0.793** |
+| **XGBoost (tuned)** | **0.634** | **0.793 ± 0.159** |
 | 3-Model Ensemble | 0.604 | — |
 
 **These are modest numbers and the repo does not dress them up.** With 8 positive
-training examples, cross-validation folds swing from 0.44 to 0.97, and at a 0.5
+training examples, cross-validation folds swing from 0.27 to 0.97, and at a 0.5
 decision threshold precision and recall on the positive class are poor (Random Forest
 predicts no positives at all). The honest read is that this is a **ranking and triage
 tool, not a classifier** — it is useful for ordering tracts by relative risk for human
@@ -104,10 +104,14 @@ their levels, for the same circularity reason.
 ## Repository
 
 ```
-notebooks/01_models_lasso_smote_shap.ipynb   LASSO → 3 models → ensemble → SHAP
-notebooks/02_choropleth_map.ipynb            interactive Folium map
+notebooks/01..06_*.ipynb                     data prep in run order: Zillow, census +
+                                             LODES, zip→tract crosswalk, permits, and the
+                                             final merge/clean/train-val-test split
+notebooks/07_models_lasso_smote_shap.ipynb   LASSO → 3 models → ensemble → SHAP
+notebooks/08_choropleth_map.ipynb            interactive Folium map
 notebooks/archive/                           earlier trials, kept for provenance
-src/01..13_*.py                              data pipeline, in run order
+src/01..13_*.py                              standalone collection scripts — the API pulls
+                                             and permit scraping the notebooks depend on
 src/exploratory/                             Yelp + Walk Score pulls (not in final features)
 outputs/                                     risk scores and SHAP values, 341 tracts
 figures/                                     maps and pipeline diagram
